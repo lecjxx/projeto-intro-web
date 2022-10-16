@@ -1,0 +1,209 @@
+@charset "UTF-8";
+body{
+    height: 100%;
+    font-family: fantasy;
+}
+
+
+
+header{
+    width: 100%;
+    height: 16vh;
+    background-color: rgb(0, 0, 0);
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr;
+    justify-items: center
+}
+
+.logo{
+    width: 34vh;
+    justify-items: center
+    
+}
+
+.barra-de-navegacao img{
+    width: 5vh;
+}
+
+nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;
+}
+
+nav li{
+    display: inline;
+}
+
+.lista-dos-filmes{
+    margin: 20px 0;
+}
+
+main{
+    margin: 5vh 0 0 0;
+    width: 100%;
+}
+
+.barra-de-pesquisa{
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    
+}
+
+.barra-de-pesquisa input{
+    background-color: rgb(195, 195, 195);
+    border: solid 2px rgb(0, 0, 0);
+    color: white;
+    border-radius: 20px;
+}
+
+.barra-de-pesquisa button{
+    background-color: rgb(195, 195, 195);
+    border: solid 2px rgb(0, 0, 0);
+    color: white;
+    border-radius: 20px;
+    margin: 0px 0px 0px 10px;
+}
+
+
+h2{
+    color: black;
+    margin: 0 0 80px 0;
+    display: grid;
+    justify-items: center;
+    -webkit-text-stroke: 0.5px white;
+}
+
+.barra-de-navegacao a{
+    text-decoration: none;
+}
+
+section img{
+    width: 200px;
+    height: 300px;
+    margin: 20px 50px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.caixa-dos-filmes1,.caixa-dos-filmes2,.caixa-dos-filmes3,.caixa-dos-filmes4,.caixa-dos-filmes5,.caixa-dos-filmes6,
+.caixa-dos-filmes7,.caixa-dos-filmes8,.caixa-dos-filmes9{
+    margin: 15px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+section ul{
+    background-color: rgb(208, 217, 222);
+    border: 3px solid white;
+    font-size: 30px;
+    font-family: fantasy;
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+    max-width: 600px;
+    min-width: none;
+}
+
+@media screen and (max-width: 800px) {
+    h2{
+        font-size: 10vw;
+    }
+    section ul{
+        font-size: 15px;
+        width: 70%;  
+        height: 22vh;
+        
+    max-width: 600px;
+    min-width: none;
+    }
+
+    .barra-de-pesquisa input{
+        height: 30px;
+        width: 50vw;
+    }
+
+    footer a{
+        font-size: 5vw;
+        color: white;
+    }
+
+    #nome{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 800px){
+    h2{
+        font-size: 8vw;
+    }
+    section ul{
+        font-size: 20px;
+        width: 50%;
+        padding: 20px;
+    }
+
+    .barra-de-pesquisa input{
+        height: 30px;
+        width: 40vw;
+    }
+
+    footer a{
+        font-size: 12px;
+    color: white;
+    }
+
+    #nome{
+        font-size: 12px;
+    }
+}
+
+section div{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255); 
+}
+
+footer div{
+    position: relative;
+    top: 3vh;
+    font-size: 20px;
+    padding: 1vw;
+}
+
+footer p{
+    display: grid;
+    justify-items: center;
+
+}
+
+#nome{
+    color: white;
+    justify-items: center;
+    padding: 20px 0px 0px ;
+}
+
+
+
+.titulo-invisivel,.invisivel1,.invisivel2,.invisivel3,.invisivel4,
+.invisivel5,.invisivel6,.invisivel7,.invisivel8,.invisivel9{
+
+    display: none;
+}
